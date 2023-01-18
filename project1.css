@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+}
+.name_hospital:hover{
+    color: red;
+}
+.main{
+    border: 0px;
+    background-image: linear-gradient(to right, rgb(107, 235, 228) ,white );
+
+}
+#welcome{
+    font-size: 150px;
+    font-weight: bolder;
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: rgb(244, 240, 240);
+    font-family: 'Moon Dance', cursive;
+    padding-bottom: 30px;
+    background-image: url(./WhatsApp\ Image\ 2023-01-16\ at\ 4.05.14\ PM.jpeg);
+    
+}
+.first{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;    
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(107, 235, 228) ,white );
+    color: rgb(0, 0, 0);
+    border: 0ch;
+    border-color: none;
+}
+.first ul{
+    display: flex;
+    gap: 50px;
+}
+.first ul li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+.first ul li:hover{
+    color: red;
+    
+}
+.sec{
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.icon{
+    background-color: azure;
+    height: 150px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other{
+    background-color: rgb(255, 34, 34);
+    height: 150px;
+    width: 60%;
+    display: flex;
+}
+.icon ul{
+    display: flex;
+    font-size: 50px;
+    gap: 35px;
+}
+.icon ul li{
+    cursor: pointer;
+}
+.plus{
+    background-color:  azure;
+    height: 100%;
+    width: 30%;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.search
+{
+    background-color:  azure;
+    height: 100%;
+    width: 70%;
+}
+.search_box{
+    background-color:  azure;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p{
+    width: 400px;
+    height: 30px;
+}
+.b{
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+
+}
+.contact{
+    background-color:  azure;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact ul{
+    display: flex;
+    gap: 50px;
+}
+.contact ul li{
+    font-size: 22px;
+}
+.hospital_warning{
+    height: 600px;
+    width: 100%;
+    background-color: greenyellow;
+    background-image: url(./hospital.jpg);
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: flex-end    
+}
+.galary{
+    height: 500px;
+    width: 100%;
+    background-color:azure;
+    
+}
+.header{
+    height: 55px;
+    width: 100%;
+    background-color: azure;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.hospital1,.hospital2,.hospital3,.hospital4,.hospital5{
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    color: rgb(255, 251, 0);
+    font-size: 20px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.75);
+}
+.hospital1:hover ,.hospital2:hover ,.hospital3:hover ,.hospital4:hover ,.hospital5:hover 
+{
+    color:  rgb(255, 8, 8);
+}
+.galary_hospital{
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 15px;
+    height: 445px;
+    
+}
+.hospital1{
+    background-image: url(./vs\ hospital.webp);
+    background-size: contain;
+    background-position: center;
+}
+.hospital2{
+    background-image: url(./apollo_hospitals_mumbai.webp);
+    background-size: contain;
+    background-position: center;
+}
+.hospital3{
+    background-image: url(./BLK\ Super\ Speciality\ Hospital.webp);
+    background-size: contain;
+    background-position: center;
+}
+.hospital4{
+    background-image: url(./medanta.webp);
+    background-size: contain;
+    background-position: center;
+}
+.hospital5{
+    background-image: url(./Fortis\ Hospitals.webp);
+    background-size: contain;
+    background-position: center;
+}
+.news{
+    background-color:  azure;
+    width: 100%;
+    height: 900px;
+}
+.corona_head{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.corona_virus{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.covid19{
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.covid_19{
+    font-size: 25px;
+    font-weight: bold;
+}
+.covid_19 ul{
+    display: flex;
+    gap: 100px;
+
+}
+.symptoms_pic{
+    background-color:  azure;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.symptoms{
+    background-color:  azure;
+    width: 30%;
+    height: 550px;
+}
+
+.hover:hover{
+    color: green;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #00006e5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+}
+
+
