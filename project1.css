@@ -272,5 +272,15 @@ a{
     font-family: 'Lobster', cursive;
     font-size: 15px;
 }
+.news{
+    overflow: hidden;
+}
 
-
+/* .news .corona_virus .symptoms_pic
+{
+    overflow: hidden;
+} */
+.news .corona_virus .symptoms_pic .symptoms
+{
+    overflow: hidden;
+}
